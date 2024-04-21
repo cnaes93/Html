@@ -28,17 +28,26 @@
             <input placeholder="Time" type="datetime" name="Zeit" >
             <button>search</button>
         </div>
-        <div>
-            <h3>filter</h3>
-            <ol>
-                <li>Erste</li>
-                <li>Zweite</li>
-            </ol>
-            <ul>
-                <li>Erste</li>
-                <li>Zweite</li>
-            </ul>
-        </div>
+        <ul class="accordion">
+            <li>
+                <input type="radio" name="accordion" id="first" >
+                <label for="first"> Filters</label>
+                <div class="content">
+                    <input type="radio" name="accordion" id="gender" >
+                    <label for="first"> Gender</label>
+                    <div class="content">
+                        <ol>
+                            <li>Erste</li>
+                            <li>Zweite</li>
+                        </ol>
+                    </div>
+                    <ul>
+                        <li>Erste</li>
+                        <li>Zweite</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
     </section>
     <section id="fuß">
         <footer>
